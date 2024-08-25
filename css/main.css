@@ -1,3 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0; 
+    width: 100vw; 
+    height: 100vh;
+  }
+  
+body{
+    background-color: #edeef2;
+}  
+
+a {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+p {
+  a {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  a {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-collapse {
     position: relative;
@@ -6,6 +46,6 @@
 
   .profile {
     position: relative;
-    left: 10%;
+    left: -5%;
   }
 }
