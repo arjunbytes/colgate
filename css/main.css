@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+  .navbar-collapse {
+    position: relative;
+    left: 20%;
+  }
+
+  .profile {
+    position: relative;
+    left: 10%;
+  }
+}
