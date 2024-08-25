@@ -1,2 +1,2 @@
 # colgate
-Colgate - Website Redesign - Design inspired from Marcelo Alejandro Cedeno Velasco
+Colgate - Website New Version- Design inspired from Marcelo Alejandro Cedeno Velasco
