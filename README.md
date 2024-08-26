@@ -55,3 +55,7 @@ Colgate - Website New Version- Design inspired from Marcelo Alejandro Cedeno Vel
 - Description Added
 - Call to Action Added 
 - Watch Video Section Added
+
+## 6. Mission Page
+- Mission Section Added
+- Mission Banner Added
