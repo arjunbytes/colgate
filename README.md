@@ -29,3 +29,4 @@ Colgate - Website New Version- Design inspired from Marcelo Alejandro Cedeno Vel
 
 ## 3. Homepage 
 - Homepage Main Title Section
+- Description Section with Shopnow Button
