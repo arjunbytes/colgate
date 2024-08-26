@@ -50,3 +50,8 @@ Colgate - Website New Version- Design inspired from Marcelo Alejandro Cedeno Vel
 - Learn More Button Added 
 - Link Arrow Added
 - Product Images Added
+
+## 6. Social Impact Page  
+- Description Added
+- Call to Action Added 
+- Watch Video Section Added
