@@ -1,16 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-html, body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0; 
-    width: 100vw; 
-    height: 100vh;
-  }
-  
-body{
-    background-color: #edeef2;
-}  
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  background-color: #edeef2;
+}
+
+.text-colgatered {
+  color: #f5010b;
+}
+
+.bg-colgatered {
+  background-color: #f5010b;
+}
 
 a {
   font-family: "Outfit", sans-serif;
@@ -47,5 +68,77 @@ h5 {
   .profile {
     position: relative;
     left: -5%;
+  }
+}
+
+/* Masked Banner */
+
+.custom-mask-container {
+  position: relative;
+  max-width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.custom-mask-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.custom-mask-overlay {
+  position: absolute;
+  bottom: -3px;
+  left: -3px;
+  background-color: #edeef2;
+  padding: 12px 30px;
+  border-radius: 0px 15px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-mask-text {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Spacing between text and icon */
+}
+
+.custom-mask-text span {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* Adjust size for a perfect circle */
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+.icon-container i {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .custom-mask-overlay {
+      bottom: 8px;
+      left: 8px;
+      padding: 8px 12px;
+  }
+
+  .custom-mask-text span {
+      font-size: 0.9rem;
+  }
+
+  .icon-container {
+      width: 35px; /* Slightly smaller for mobile */
+      height: 35px;
+      font-size: 1rem;
   }
 }

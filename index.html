@@ -12,12 +12,19 @@
       referrerpolicy="no-referrer"
     />
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary m-2">
-      <div class="container-fluid bg-light">
+  <body class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-4 m-3">
+      <div class="container-fluid bg-light rounded-4">
         <a class="navbar-brand" href="#">Colgate</a>
         <button
           class="navbar-toggler"
@@ -35,38 +42,34 @@
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Oral Health</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+            <li class="nav-item me-3">
+              <a class="nav-link active" aria-current="page" href="#home"
+                ><i class="fa fa-home me-1 text-colgatered"></i> Home</a
               >
-                Products
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link">Social Impact</a>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#oralhealth"
+                ><i class="fa fa-tooth me-1 text-colgatered d-none"></i> Oral
+                Health</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link">Mission</a>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#products"
+                ><i class="fa fa-smile me-1 text-colgatered d-none"></i>
+                Products</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#socialimpact"
+                ><i class="fa fa-user-shield me-1 text-colgatered d-none"></i>
+                Social Impact</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#mission"
+                ><i class="fa fa-bullseye me-1 text-colgatered d-none"></i>
+                Mission</a
+              >
             </li>
           </ul>
         </div>
@@ -92,11 +95,11 @@
             </div>
           </div>
         </div>
-        <div style="position: relative; left: -20%">
-            <small class="mb-0 d-none d-lg-block"
-              ><i class="lni lni-search-alt fs-5"></i
-            ></small>
-          </div>
+        <div style="position: relative; left: -18%">
+          <small class="mb-0 d-none d-lg-block"
+            ><i class="lni lni-search-alt fs-5"></i
+          ></small>
+        </div>
         <div style="position: relative; left: -4%">
           <small class="mb-0 d-none d-lg-block"
             ><i class="lni lni-text-align-justify fs-5"></i
@@ -104,6 +107,41 @@
         </div>
       </div>
     </nav>
+
+    <div
+      class="container-fluid vh-100 d-flex justify-content-center align-items-center section d-none"
+      id="home"
+    >
+      <h1>Home</h1>
+    </div>
+
+    <div
+      class="container-fluid vh-100 d-flex justify-content-center align-items-center section d-none"
+      id="oralhealth"
+    >
+      <h1>Oral Health</h1>
+    </div>
+
+    <div
+      class="container-fluid vh-100 d-flex justify-content-center align-items-center section d-none"
+      id="products"
+    >
+      <h1>Products</h1>
+    </div>
+
+    <div
+      class="container-fluid vh-100 d-flex justify-content-center align-items-center section d-none"
+      id="socialimpact"
+    >
+      <h1>Social Impact</h1>
+    </div>
+
+    <div
+      class="container-fluid vh-100 d-flex justify-content-center align-items-center section d-none"
+      id="mission"
+    >
+      <h1>Mission</h1>
+    </div>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
