@@ -18,6 +18,8 @@ Colgate - Website New Version- Design inspired from Marcelo Alejandro Cedeno Vel
 
 - Outer Margin Spacing Added
 
+- Brand Logo Added
+
 ## 2. Main Navigation System 
 - Navigation system updated.
 

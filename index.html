@@ -21,7 +21,9 @@
 <body class="container-fluid">
   <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-4 m-3">
     <div class="container-fluid bg-light rounded-4">
-      <a class="navbar-brand" href="#">Colgate</a>
+      <a class="navbar-brand ms-3" href="#" style="position: relative;">
+        <img src="images/logo.webp" class="rounded-4" width="130px" style="position: absolute; top: -85px;">
+    </a>    
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -163,8 +165,88 @@
     </div>
   </div>
 
-  <div class="container-fluid vh-100 d-flex justify-content-center align-items-center section d-none" id="oralhealth">
-    <h1>Oral Health</h1>
+  <div class="container-fluid section" id="oralhealth">
+    <div class="row d-flex justify-content-center align-items-stretch mb-4">
+      <div class="col-md-12 p-5 m-1 mt-4 p-0" style="max-height: 280px">
+        <h1 class="fw-bolder" style="font-size: 60px; line-height: 40px">
+          <span class="fw-normal">ORAL</span> HEALTH
+        </h1>
+      </div>
+      <div class="col-md-12 p-5 m-1" style="max-height: 280px">
+        <div class="d-flex align-items-center mb-2">
+          <a class="px-4 py-1 btn btn-outline-dark rounded-pill text-decoration-none me-3">Experience</a>
+          <a class="px-4 py-1 btn btn-dark rounded-pill text-decoration-none me-3">Science</a>
+        </div>
+        <p class="my-3">
+          All of our science, expertise, knowledge of oral health and our
+          partnership with the dental profession and organizations is in
+          service to helping everyone do the best for their smile and the best
+          for the planet too.
+        </p>
+        <div class="d-flex align-items-center">
+          <a class="px-5 py-2 bg-colgatered text-light rounded-pill fw-bolder text-decoration-none me-3">SHOP NOW</a>
+          <a class="icon-container bg-colgatered p-2 text-light rounded-circle fw-bolder text-decoration-none">
+            <i class="lni lni-arrow-top-right"></i>
+          </a>
+          <a class="ms-4 p-2 text-secondary text-decoration-none">
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-stretch">
+        <div class="col-md-6 custom-mask-container rounded-4 p-0 mx-2" style="max-height: 320px">
+          <img src="images/smilingbanner.webp" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" />
+          <div class="custom-mask-overlay">
+            <div class="custom-mask-text">
+              <span class="me-3 fs-5">What's behind<br />your smile?</span>
+              <div class="icon-container bg-dark p-2 text-light rounded-circle">
+                <i class="lni lni-arrow-top-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 custom-mask-container rounded-4 p-0 mx-2" style="
+              max-height: 320px;
+              background-image: url('images/background.webp');
+            ">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="images/product_slide1.webp" alt="Product" class="d-block m-5 pt-3" width="60%"
+              style="object-fit: cover; height: 100%" />
+            <div class="text-overlay">
+              Whitens teeth in 3 days*</div>
+            <a href="#" class="learn-more">Learn more</a>
+            <a class="upper-arrow btn icon-container p-2 text-light rounded-circle fw-bolder text-decoration-none">
+              <i class="lni lni-arrow-top-right"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="col-md-2 custom-mask-container rounded-4 p-3 mx-2 bg-dark" style="max-height: 320px">
+          <h5 class="text-light mb-3">HOW WE CAN HELP YOU TODAY!</h5>
+          <div class="choose-product text-light">
+            <label for="productInput"><small>Email Id:</small></label>
+            <input type="text" id="productInput" class="form-control mt-2 rounded-pill bg-dark text-light"
+              placeholder="Enter product name">
+          </div>
+          <div class="choose-product text-light mt-2">
+            <label for="productSelect"><small>Choose Product:</small></label>
+            <select id="productSelect" class="form-select mt-2 rounded-pill bg-dark text-light">
+              <option selected disabled><small>Select a product</small></option>
+              <option value="product1">Colgate Active Salt</option>
+              <option value="product2">Colgate Visible White</option>
+              <option value="product3">Colgate Gum Expert</option>
+              <option value="product4">Colgate Kids</option>
+            </select>
+          </div>
+          <div class="mt-3 d-flex justify-content-center align-items-center">
+            <a class="px-5 py-2 btn bg-light text-dark rounded-pill fw-bolder text-decoration-none">Get Started</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="container-fluid vh-100 d-flex justify-content-center align-items-center section d-none" id="products">
