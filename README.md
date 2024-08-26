@@ -40,7 +40,13 @@ Colgate - Website New Version- Design inspired from Marcelo Alejandro Cedeno Vel
 
 - Homepage Form Section Created
 
-## 3. Oral Health Care 
+## 4. Oral Health Care 
 - Oral Health Sections Added
 
 - Customized Title and Button Added  
+
+## 5. Product Section 
+- 6 Products Added
+- Learn More Button Added 
+- Link Arrow Added
+- Product Images Added
