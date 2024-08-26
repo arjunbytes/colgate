@@ -34,4 +34,6 @@ Colgate - Website New Version- Design inspired from Marcelo Alejandro Cedeno Vel
 
 - Main Banner Section Created
 
-- Best Selling Product Section
+- Best Selling Product Section Created
+
+- Homepage Form Section Created
