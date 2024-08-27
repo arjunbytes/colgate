@@ -16,9 +16,11 @@
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
 <body class="container-fluid">
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-4 m-3">
     <div class="container-fluid bg-light rounded-4">
       <a class="navbar-brand ms-3" href="#" style="position: relative">
@@ -52,7 +54,7 @@
           </li>
         </ul>
       </div>
-      <div class="d-flex profile float-left" role="search">
+      <div class="d-flex profile float-left d-sm-none d-md-block" role="search">
         <div class="row align-items-center border border-2 rounded-pill px-1">
           <div class="col-auto d-none d-lg-block p-0">
             <img src="images/avatar.webp" class="rounded-circle" width="40" alt="avatar" />
@@ -74,21 +76,21 @@
     </div>
   </nav>
 
-  <div class="container-fluid section" id="home">
+  <div class="container section" id="home">
     <div class="row d-flex justify-content-center align-items-stretch mb-4">
-      <div class="col-md-5 m-1 mt-4 p-0" style="max-height: 280px">
-        <h1 class="fw-bolder" style="font-size: 85px; line-height: 40px">
-          <span class="fw-normal">YOUR</span> SMILE IS
+      <div class="col-md-5 p-0 main_title" style="max-height: 280px">
+        <h1 class="fw-bolder">
+          <span class="fw-normal ">YOUR</span> SMILE IS
         </h1>
         <div class="d-flex align-items-center">
-          <h1 class="fw-bolder" style="font-size: 85px">YOUR</h1>
+          <h1 class="fw-bolder">YOUR</h1>
           <img src="images/smile_cutout.webp" class="ms-3 rounded-4" alt="smile" height="60vh" width="53%" />
         </div>
-        <h1 class="fw-bolder" style="font-size: 85px; line-height: 40px">
+        <h1 class="fw-bolder" style="font-size: 65px;">
           SUPERPOWER
         </h1>
       </div>
-      <div class="col-md-6 p-5 m-1" style="max-height: 280px">
+      <div class="col-md-6 maindesc" style="max-height: 280px">
         <div class="d-flex align-items-center mb-2">
           <a class="px-4 py-1 btn btn-outline-dark rounded-pill text-decoration-none me-3">Experience</a>
           <a class="px-4 py-1 btn btn-dark rounded-pill text-decoration-none me-3">Science</a>
@@ -100,7 +102,7 @@
           for the planet too.
         </p>
         <div class="d-flex align-items-center">
-          <a class="px-5 py-2 bg-colgatered text-light rounded-pill fw-bolder text-decoration-none me-3">SHOP NOW</a>
+          <a class="px-4 py-2 bg-colgatered text-light rounded-pill fw-bolder text-decoration-none me-3">SHOP NOW</a>
           <a class="icon-container bg-colgatered p-2 text-light rounded-circle fw-bolder text-decoration-none">
             <i class="lni lni-arrow-top-right"></i>
           </a>
@@ -110,11 +112,11 @@
         </div>
       </div>
       <div class="row d-flex justify-content-center align-items-stretch">
-        <div class="col-md-6 custom-mask-container card-inset rounded-4 p-0 mx-2" style="max-height: 320px">
+        <div class="col-lg-6 col-md-12 col-sm-12 custom-mask-container card-inset rounded-4 p-0 m-2" style="max-height: 320px">
           <img src="images/smilingbanner.webp" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover" />
           <div class="custom-mask-overlay">
             <div class="custom-mask-text">
-              <span class="me-3 fs-5">What's behind<br />your smile?</span>
+              <span class="me-3">What's behind<br />your smile?</span>
               <div class="icon-container bg-dark p-2 text-light rounded-circle">
                 <i class="lni lni-arrow-top-right"></i>
               </div>
@@ -122,7 +124,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 custom-mask-container rounded-4 p-0 mx-2" style="
+        <div class="col-lg-3 col-md-5 col-sm-12 custom-mask-container rounded-4 p-0 m-2" style="
               max-height: 320px;
               background-image: url('images/background.webp');
             ">
@@ -137,7 +139,7 @@
           </div>
         </div>
 
-        <div class="col-md-2 custom-mask-container rounded-4 p-3 mx-2 bg-dark" style="max-height: 320px">
+        <div class="col-lg-2 col-md-5 col-sm-12 custom-mask-container rounded-4 p-3 m-2 bg-dark" style="max-height: 320px">
           <h5 class="text-light mb-3">HOW WE CAN HELP YOU TODAY!</h5>
           <div class="choose-product text-light">
             <label for="productInput"><small>Email Id:</small></label>

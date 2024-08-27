@@ -1,0 +1,146 @@
+/* Extra Large Devices (Desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .main_title{
+        margin: 20px;
+    }
+    .main_title h1{
+        font-size: 65px !important;
+    }
+    .maindesc {
+        margin: 30px;
+        padding: 30px;
+    }
+    .h2 {
+        font-size: 2.5rem;
+    }
+
+    p, a {
+        font-size: 1.125rem;
+    }
+}
+
+/* Large Devices (Desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main_title{
+        margin: 20px;
+    }
+    .main_title h1{
+        font-size: 55px !important;
+    }
+    .maindesc {
+        margin: 25px;
+        padding: 25px;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    p, a {
+        font-size: 1rem;
+    }
+}
+
+/* Medium Devices (Tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main_title{
+        margin: 10px;
+        padding-top: 20px !important;
+    }
+    .main_title h1{
+        font-size: 43px !important;
+    }
+    .maindesc {
+        margin: 20px;
+        padding: 10px;
+    }
+    .custom-mask-overlay{
+        left: 0px;
+        bottom: 0px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p, a {
+        font-size: 0.875rem;
+    }
+}
+
+/* Small Devices (Portrait Tablets and Large Phones, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main_title h1{
+        font-size: 45px !important;
+    }
+    .maindesc {
+        margin: 20px;
+        padding: 20px;
+    }
+    .custom-mask-overlay{
+        left: 0px;
+        bottom: 0px;
+    }
+
+    h2 {
+        font-size: 1.875rem;
+    }
+
+    p, a {
+        font-size: 0.8125rem;
+    }
+    
+}
+
+/* Extra Small Devices (Portrait Phones, Less than 576px) */
+@media (max-width: 575.98px) {
+    .main_title{
+        margin: 10px;
+        padding: 10px !important;
+    }
+    .main_title h1{
+        font-size: 45px !important;
+    }
+    .maindesc {
+        padding: 20px;
+    }
+    .custom-mask-overlay{
+        left: 0px;
+        bottom: 0px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    p, a {
+        font-size: 0.75rem;
+    }
+}
+
+/* Ultra Small Devices (Very Small Phones, Less than 480px) */
+@media (max-width: 480px) {
+    .main_title{
+        margin: 10px;
+        padding: 10px !important;
+    }
+    .main_title h1{
+        font-size: 45px !important;
+    }
+    .maindesc {
+        padding: 15px;
+    }
+    .custom-mask-overlay{
+        left: 0px;
+        bottom: 0px;
+    }
+    .custom
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p, a {
+        font-size: 0.75rem;
+    }
+}

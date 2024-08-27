@@ -2,24 +2,10 @@
 
 html,
 body {
+  margin: 0;
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
 }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
-}
-
-.section {
-  height: 100vh;
-  overflow: hidden;
-}
 
 body {
   background-color: #edeef2;
@@ -39,24 +25,16 @@ a {
   font-style: normal;
 }
 
-p {
-  a {
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+p a {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  a {
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+h1, h2, h3, h4, h5 a {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 @media (min-width: 992px) {
@@ -72,12 +50,11 @@ h5 {
 }
 
 /* Masked Banner */
-
 .custom-mask-container {
   position: relative;
   max-width: 100%;
   border-radius: 20px;
-  overflow: hidden;
+  overflow: hidden; /* Keeps contents within the masked area */
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -142,11 +119,10 @@ h5 {
   }
 }
 
-/* Mini Scroll Carousal */
-
+/* Mini Scroll Carousel */
 .custom-mask-container {
   position: relative;
-  overflow: hidden;
+  overflow: hidden; /* Keeps contents within the masked area */
 }
 
 .text-overlay {
